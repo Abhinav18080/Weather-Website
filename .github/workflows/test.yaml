@@ -1,8 +1,8 @@
 name: First Github Action
 on: [push]
 jobs:
-  print-hello-world:
-    runs-on: macos-latest
+  build-app:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - run: tree
